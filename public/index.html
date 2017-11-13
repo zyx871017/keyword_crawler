@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>keyword抓取</title>
+</head>
+<body>
+<h1>头条关键词搜索</h1>
+<br>
+<form action="/save_task" enctype="multipart/form-data" method="post">
+    <div>上传关键词文件<input type="file" name="logo" id="file_input"/></div>
+    <br>
+    <div>输入开始位置<input type="number" name="startIndex" id="start_number"/></div>
+    <br>
+    <div><input type="submit" value="上传" id="confirm"/></div>
+</form>
+<table>
+    <tbody>
+    <tr>
+        <th>编号</th>
+        <th>文件名</th>
+        <th>状态</th>
+        <th>上传时间</th>
+        <th>起始位置</th>
+        <th>操作</th>
+    </tr>
+    </tbody>
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
